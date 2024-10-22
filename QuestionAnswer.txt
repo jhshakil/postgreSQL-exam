@@ -1,0 +1,45 @@
+1-Q. What is PostgreSQL?
+
+A. PostgreSQL is a relational database management system work with SQL (structural query language). 
+It is one of the most popular and secure database. It is also an open-source RDBMS. 
+It is more popular because of is reliability and advanced features.
+
+
+2-Q. What is the purpose of a database schema in PostgreSQL?
+
+A. In PostgreSQL, database schema is use to create logical structure so that we can organize database tables. 
+It help us to provide better management and security.
+
+
+3-Q. Explain the primary key and foreign key concepts in PostgreSQL.
+
+A. Primary key is a unique key that can uniquely identify each row within that table. It must be unique and not nullable.
+Otherwise Foreign key is key which can make a relation in two table. One table primary key is other table foreign key. 
+We use primary key for unique identity and foreign key for relationship.
+
+
+4-Q. What is the difference between the VARCHAR and CHAR data types?
+
+A. VARCHAR and CHAR are two data type and both store data as string but in VARCHAR it store a variable length string up to a maximum 
+length like 0 to 10, if a string of 7 characters will only take 7 characters space. Otherwise CHAR store variable with fixed length 
+like if we set length 10 and our string is 7 characters, it will take 10 characters space.
+
+
+5-Q. Explain the purpose of the WHERE clause in a SELECT statement.
+
+A. WHERE makes a condition in select statement, It is used to filter records from a table based on specific conditions.
+It only return that rows which rows meet the specified conditions.
+
+
+6-Q. What are the LIMIT and OFFSET clauses used for?
+
+A. LIMIT and OFFSET clauses are used to control the number of rows returned by query. 
+LIMIT specified the row limit and OFFSET specified row that will be skip.
+
+
+
+7-Q. What is the significance of the JOIN operation, and how does it work in PostgreSQL?
+
+A. JOIN operation  is used to combine two or more tables row based on related column between theme.
+Join operation allows us to retrieve the related data by combining rows based on relative field like primary key and foreign key.
+
