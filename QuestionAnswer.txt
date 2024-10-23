@@ -37,9 +37,26 @@ A. LIMIT and OFFSET clauses are used to control the number of rows returned by q
 LIMIT specified the row limit and OFFSET specified row that will be skip.
 
 
+7-Q. How can you perform data modification using UPDATE statements?
 
-7-Q. What is the significance of the JOIN operation, and how does it work in PostgreSQL?
+A. UPDATE statement is used to modify existing data in a table. It allows us to change values that match a specified condition.
+We use SET clause to specify new values and WHERE clause if need any filter which rows to update.
+
+
+8-Q. What is the significance of the JOIN operation, and how does it work in PostgreSQL?
 
 A. JOIN operation  is used to combine two or more tables row based on related column between theme.
 Join operation allows us to retrieve the related data by combining rows based on relative field like primary key and foreign key.
+
+
+9-Q. Explain the GROUP BY clause and its role in aggregation operations.
+
+A. GROUP BY clause is use to make rows grouped together with identical values in specified column and then apply 
+aggregation function in each group rather than to individual rows. It allows queries to perform operations with summarize data in multiple rows.
+
+
+10-Q. What is the purpose of an index in PostgreSQL, and how does it optimize query performance?
+
+A. Index is use in PostgreSQL to make queries quicker. it improves data retrieval operation spreed. It is like an index in a book.
+It store index values and PostgreSQL builds a data structure which allows it to quickly locate positions of rows.
 
